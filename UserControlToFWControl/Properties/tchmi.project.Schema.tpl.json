@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "ucMyUserControl": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControls\\ucMyUserControl.usercontrol.json",
+      "id": "tchmi:project#/definitions/ucMyUserControl",
+      "type": "object"
+    },
+    "myType": {
+      "properties": {
+        "myBool": {
+          "$ref": "tchmi:general#/definitions/Boolean"
+        },
+        "myString": {
+          "$ref": "tchmi:general#/definitions/String"
+        },
+        "myNumber": {
+          "$ref": "tchmi:general#/definitions/Number"
+        }
+      },
+      "type": "object"
+    }
+  }
+}

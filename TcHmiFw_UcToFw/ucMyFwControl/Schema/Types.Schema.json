@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+    "definitions": {
+        "TcHmi.Controls.TcHmiFw_UcToFw.ucMyFwControl": {
+            "type": "object",
+            "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+            "frameworkControlType": "ucMyFwControl",
+            "frameworkControlNamespace": "TcHmi.Controls.TcHmiFw_UcToFw"
+        },
+        "TcHmi.Controls.TcHmiFw_UcToFw.myType": {
+            "title": "myType",
+            "properties": {
+                "myBool": {
+                    "$ref": "tchmi:general#/definitions/Boolean"
+                },
+                "myNumber": {
+                    "$ref": "tchmi:general#/definitions/Number"
+                },
+                "myString": {
+                    "$ref": "tchmi:general#/definitions/String"
+                }
+            },
+            "type": "object",
+            "id": "tchmi:project#/definitions/myType"
+        }
+    }
+}

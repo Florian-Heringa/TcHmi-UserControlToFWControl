@@ -1,0 +1,27 @@
+<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width="100" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height="100" data-tchmi-min-height-unit="%" data-tchmi-zindex="3" data-tchmi-zindex="2">
+  <div id="ViewDesktopBeckhoffLogo" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-src="Images/Beckhoff_Logo.svg" data-tchmi-left="20" data-tchmi-top="20" data-tchmi-width="194" data-tchmi-height="57" data-tchmi-zindex="3">
+
+  </div>
+<div id="UcMyUserControl" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="328" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControls/ucMyUserControl.usercontrol" data-tchmi-top="87" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-mytypeparameter="%i%myTypeInstance%/i%" data-tchmi-zindex="3">
+</div>
+<div id="UcMyFwControl" data-tchmi-type="TcHmi.Controls.TcHmiFw_UcToFw.ucMyFwControl" data-tchmi-height="328" data-tchmi-height-unit="px" data-tchmi-left="377" data-tchmi-left-unit="px" data-tchmi-top="87" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-mytypeparameter="%i%myTypeInstance%/i%" data-tchmi-zindex="3">
+</div>
+<div id="tbtn_Direct" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiToggleButton" data-tchmi-height="70" data-tchmi-height-unit="px" data-tchmi-left="136" data-tchmi-left-unit="px" data-tchmi-text="Toggle Button" data-tchmi-top="501" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-state-symbol="%i%myTypeInstance::myBool%/i%" data-tchmi-zindex="3">
+</div>
+<div id="tbl_NumberDirect" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="33" data-tchmi-height-unit="px" data-tchmi-left="246" data-tchmi-left-unit="px" data-tchmi-text="%i%myTypeInstance::myNumber%/i%" data-tchmi-top="501" data-tchmi-top-unit="px" data-tchmi-width="62" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+</div>
+<div id="tbl_StringDirect" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="27" data-tchmi-height-unit="px" data-tchmi-left="246" data-tchmi-left-unit="px" data-tchmi-text="%i%myTypeInstance::myString%/i%" data-tchmi-top="544" data-tchmi-top-unit="px" data-tchmi-width="62" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+</div>
+<div id="tbl_UcLabel" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="User Control" data-tchmi-top="425" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+</div>
+<div id="tbl_FWLabel" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="387" data-tchmi-left-unit="px" data-tchmi-text="Framework Control" data-tchmi-top="425" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+</div>
+<div id="tbl_DirectLabel" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="70" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Direct Binding" data-tchmi-top="501" data-tchmi-top-unit="px" data-tchmi-width="106" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+</div>
+<div id="rec_Direct" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="70" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="501" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-zindex="2">
+</div>
+<div id="rec_Uc" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="364" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-top="87" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-zindex="1">
+</div>
+<div id="rec_FW" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="364" data-tchmi-height-unit="px" data-tchmi-left="377" data-tchmi-left-unit="px" data-tchmi-top="87" data-tchmi-top-unit="px" data-tchmi-width="347" data-tchmi-width-unit="px" data-tchmi-zindex="0">
+</div>
+</div>
